@@ -128,6 +128,11 @@ lcd_data(*p++);
 
 
 }
+// #include<P18F4520.h>
+#define RS PORTCbits.RC0
+#define RW PORTCbits.RC1
+#define EN  PORTCbits.RC3
+#define data_line PORTD
 
 
 
